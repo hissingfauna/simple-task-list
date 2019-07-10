@@ -1,0 +1,38 @@
+.sectionContainer {
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.emptyList {
+    background-color: #E0E0E0;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #BDBDBD;
+    font-style: italic;
+}
+.completed {
+    background-color: #E0E0E0;
+    color: #BDBDBD;
+    font-style: italic;
+    text-decoration: line-through;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+.toDo {
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+.taskButton {
+    margin-left: auto;
+}
